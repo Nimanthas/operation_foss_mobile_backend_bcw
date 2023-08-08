@@ -1,0 +1,27 @@
+{
+  "name": "fabricyy_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.1",
+    "mssql": "^7.3.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "winston": "^3.10.0",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "DevonP",
+  "license": "ISC"
+}
